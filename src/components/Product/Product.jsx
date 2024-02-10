@@ -1,12 +1,12 @@
 
 
-export default function Product(props) {
+export default function Product({label,img,title,price,imgdes}) {
     return (
         <article>
-            <span>{props.label}</span>
-            <img src={props.img} alt={props.alt}/>
-            <p>{props.title}</p>
-            <h4>{props.price}</h4>
+            <span>{label}</span>
+            <img src={img} alt={imgdes}/>
+            <p>{title}</p>
+            <h4>{price}</h4>
         </article>
 
     );

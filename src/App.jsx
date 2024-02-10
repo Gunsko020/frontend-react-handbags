@@ -72,18 +72,16 @@ function App() {
               </Product>
           </main>
           <footer>
-              <Tile>
-                  <h2>Brand</h2>
+              <Tile title="Brand">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur exercitationem quis sint sunt tempora voluptate. Autem dolor eaque facere modi neque, nobis non officiis quasi rem repellat, tempora veniam voluptatibus.</p>
               </Tile>
-              <Tile>
-                  <img src={brand} alt="brand"/>
-              </Tile>
-              <Tile>
-                  <img src={ourStory} alt="our story"/>
-              </Tile>
-              <Tile>
-                  <h2>Our story</h2>
+              <Tile
+              img={brand}
+              imgdes="brand"/>
+              <Tile
+              img={ourStory}
+              imgdes="our story"/>
+              <Tile title="Our story">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur exercitationem quis sint sunt tempora voluptate. Autem dolor eaque facere modi neque, nobis non officiis quasi rem repellat, tempora veniam voluptatibus.</p>
               </Tile>
           </footer>
